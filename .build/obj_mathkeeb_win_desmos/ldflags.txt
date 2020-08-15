@@ -1,0 +1,1 @@
+-Wl,--gc-sections -Wl,-Map=./.build/mathkeeb_win_desmos.map,--cref     -lm 

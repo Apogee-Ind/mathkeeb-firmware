@@ -1,0 +1,240 @@
+   1               		.file	"process_leader.c"
+   2               	__SP_H__ = 0x3e
+   3               	__SP_L__ = 0x3d
+   4               	__SREG__ = 0x3f
+   5               	__tmp_reg__ = 0
+   6               	__zero_reg__ = 1
+   7               		.text
+   8               	.Ltext0:
+   9               		.cfi_sections	.debug_frame
+  10               		.section	.text.leader_start,"ax",@progbits
+  11               		.weak	leader_start
+  13               	leader_start:
+  14               	.LFB107:
+  15               		.file 1 "quantum/process_keycode/process_leader.c"
+   1:quantum/process_keycode/process_leader.c **** #include "process_leader.h"
+   2:quantum/process_keycode/process_leader.c **** 
+   3:quantum/process_keycode/process_leader.c **** __attribute__ ((weak))
+   4:quantum/process_keycode/process_leader.c **** void leader_start(void) {}
+  16               		.loc 1 4 0
+  17               		.cfi_startproc
+  18               	/* prologue: function */
+  19               	/* frame size = 0 */
+  20               	/* stack size = 0 */
+  21               	.L__stack_usage = 0
+  22 0000 0895      		ret
+  23               		.cfi_endproc
+  24               	.LFE107:
+  26               		.section	.text.leader_end,"ax",@progbits
+  27               		.weak	leader_end
+  29               	leader_end:
+  30               	.LFB108:
+   5:quantum/process_keycode/process_leader.c **** 
+   6:quantum/process_keycode/process_leader.c **** __attribute__ ((weak))
+   7:quantum/process_keycode/process_leader.c **** void leader_end(void) {}
+  31               		.loc 1 7 0
+  32               		.cfi_startproc
+  33               	/* prologue: function */
+  34               	/* frame size = 0 */
+  35               	/* stack size = 0 */
+  36               	.L__stack_usage = 0
+  37 0000 0895      		ret
+  38               		.cfi_endproc
+  39               	.LFE108:
+  41               		.section	.text.process_leader,"ax",@progbits
+  42               	.global	process_leader
+  44               	process_leader:
+  45               	.LFB109:
+   8:quantum/process_keycode/process_leader.c **** 
+   9:quantum/process_keycode/process_leader.c **** // Leader key stuff
+  10:quantum/process_keycode/process_leader.c **** bool leading = false;
+  11:quantum/process_keycode/process_leader.c **** uint16_t leader_time = 0;
+  12:quantum/process_keycode/process_leader.c **** 
+  13:quantum/process_keycode/process_leader.c **** uint16_t leader_sequence[5] = {0, 0, 0, 0, 0};
+  14:quantum/process_keycode/process_leader.c **** uint8_t leader_sequence_size = 0;
+  15:quantum/process_keycode/process_leader.c **** 
+  16:quantum/process_keycode/process_leader.c **** bool process_leader(uint16_t keycode, keyrecord_t *record) {
+  46               		.loc 1 16 0
+  47               		.cfi_startproc
+  48               	.LVL0:
+  49               		.loc 1 16 0
+  50 0000 CF93      		push r28
+  51               	.LCFI0:
+  52               		.cfi_def_cfa_offset 3
+  53               		.cfi_offset 28, -2
+  54 0002 DF93      		push r29
+  55               	.LCFI1:
+  56               		.cfi_def_cfa_offset 4
+  57               		.cfi_offset 29, -3
+  58               	/* prologue: function */
+  59               	/* frame size = 0 */
+  60               	/* stack size = 2 */
+  61               	.L__stack_usage = 2
+  62 0004 EC01      		movw r28,r24
+  17:quantum/process_keycode/process_leader.c ****   // Leader key set-up
+  18:quantum/process_keycode/process_leader.c ****   if (record->event.pressed) {
+  63               		.loc 1 18 0
+  64 0006 FB01      		movw r30,r22
+  65 0008 8281      		ldd r24,Z+2
+  66               	.LVL1:
+  67 000a 8111      		cpse r24,__zero_reg__
+  68 000c 00C0      		rjmp .L4
+  69               	.LVL2:
+  70               	.L7:
+  19:quantum/process_keycode/process_leader.c ****     if (!leading && keycode == KC_LEAD) {
+  20:quantum/process_keycode/process_leader.c ****       leader_start();
+  21:quantum/process_keycode/process_leader.c ****       leading = true;
+  22:quantum/process_keycode/process_leader.c ****       leader_time = timer_read();
+  23:quantum/process_keycode/process_leader.c ****       leader_sequence_size = 0;
+  24:quantum/process_keycode/process_leader.c ****       leader_sequence[0] = 0;
+  25:quantum/process_keycode/process_leader.c ****       leader_sequence[1] = 0;
+  26:quantum/process_keycode/process_leader.c ****       leader_sequence[2] = 0;
+  27:quantum/process_keycode/process_leader.c ****       leader_sequence[3] = 0;
+  28:quantum/process_keycode/process_leader.c ****       leader_sequence[4] = 0;
+  29:quantum/process_keycode/process_leader.c ****       return false;
+  30:quantum/process_keycode/process_leader.c ****     }
+  31:quantum/process_keycode/process_leader.c ****     if (leading && timer_elapsed(leader_time) < LEADER_TIMEOUT) {
+  32:quantum/process_keycode/process_leader.c ****       leader_sequence[leader_sequence_size] = keycode;
+  33:quantum/process_keycode/process_leader.c ****       leader_sequence_size++;
+  34:quantum/process_keycode/process_leader.c ****       return false;
+  35:quantum/process_keycode/process_leader.c ****     }
+  36:quantum/process_keycode/process_leader.c ****   }
+  37:quantum/process_keycode/process_leader.c ****   return true;
+  71               		.loc 1 37 0
+  72 000e 81E0      		ldi r24,lo8(1)
+  73 0010 00C0      		rjmp .L5
+  74               	.LVL3:
+  75               	.L4:
+  19:quantum/process_keycode/process_leader.c ****     if (!leading && keycode == KC_LEAD) {
+  76               		.loc 1 19 0
+  77 0012 8091 0000 		lds r24,leading
+  78 0016 8111      		cpse r24,__zero_reg__
+  79 0018 00C0      		rjmp .L6
+  19:quantum/process_keycode/process_leader.c ****     if (!leading && keycode == KC_LEAD) {
+  80               		.loc 1 19 0 is_stmt 0 discriminator 1
+  81 001a C531      		cpi r28,21
+  82 001c D047      		sbci r29,112
+  83 001e 01F4      		brne .L7
+  20:quantum/process_keycode/process_leader.c ****       leading = true;
+  84               		.loc 1 20 0 is_stmt 1
+  85 0020 0E94 0000 		call leader_start
+  86               	.LVL4:
+  21:quantum/process_keycode/process_leader.c ****       leader_time = timer_read();
+  87               		.loc 1 21 0
+  88 0024 81E0      		ldi r24,lo8(1)
+  89 0026 8093 0000 		sts leading,r24
+  22:quantum/process_keycode/process_leader.c ****       leader_sequence_size = 0;
+  90               		.loc 1 22 0
+  91 002a 0E94 0000 		call timer_read
+  92               	.LVL5:
+  93 002e 9093 0000 		sts leader_time+1,r25
+  94 0032 8093 0000 		sts leader_time,r24
+  23:quantum/process_keycode/process_leader.c ****       leader_sequence[0] = 0;
+  95               		.loc 1 23 0
+  96 0036 1092 0000 		sts leader_sequence_size,__zero_reg__
+  24:quantum/process_keycode/process_leader.c ****       leader_sequence[1] = 0;
+  97               		.loc 1 24 0
+  98 003a 1092 0000 		sts leader_sequence+1,__zero_reg__
+  99 003e 1092 0000 		sts leader_sequence,__zero_reg__
+  25:quantum/process_keycode/process_leader.c ****       leader_sequence[2] = 0;
+ 100               		.loc 1 25 0
+ 101 0042 1092 0000 		sts leader_sequence+2+1,__zero_reg__
+ 102 0046 1092 0000 		sts leader_sequence+2,__zero_reg__
+  26:quantum/process_keycode/process_leader.c ****       leader_sequence[3] = 0;
+ 103               		.loc 1 26 0
+ 104 004a 1092 0000 		sts leader_sequence+4+1,__zero_reg__
+ 105 004e 1092 0000 		sts leader_sequence+4,__zero_reg__
+  27:quantum/process_keycode/process_leader.c ****       leader_sequence[4] = 0;
+ 106               		.loc 1 27 0
+ 107 0052 1092 0000 		sts leader_sequence+6+1,__zero_reg__
+ 108 0056 1092 0000 		sts leader_sequence+6,__zero_reg__
+  28:quantum/process_keycode/process_leader.c ****       return false;
+ 109               		.loc 1 28 0
+ 110 005a 1092 0000 		sts leader_sequence+8+1,__zero_reg__
+ 111 005e 1092 0000 		sts leader_sequence+8,__zero_reg__
+ 112 0062 00C0      		rjmp .L8
+ 113               	.LVL6:
+ 114               	.L6:
+  31:quantum/process_keycode/process_leader.c ****       leader_sequence[leader_sequence_size] = keycode;
+ 115               		.loc 1 31 0 discriminator 1
+ 116 0064 8091 0000 		lds r24,leader_time
+ 117 0068 9091 0000 		lds r25,leader_time+1
+ 118 006c 0E94 0000 		call timer_elapsed
+ 119               	.LVL7:
+ 120 0070 883C      		cpi r24,-56
+ 121 0072 9105      		cpc r25,__zero_reg__
+ 122 0074 00F4      		brsh .L7
+  32:quantum/process_keycode/process_leader.c ****       leader_sequence_size++;
+ 123               		.loc 1 32 0
+ 124 0076 8091 0000 		lds r24,leader_sequence_size
+ 125 007a E82F      		mov r30,r24
+ 126 007c F0E0      		ldi r31,0
+ 127 007e EE0F      		lsl r30
+ 128 0080 FF1F      		rol r31
+ 129 0082 E050      		subi r30,lo8(-(leader_sequence))
+ 130 0084 F040      		sbci r31,hi8(-(leader_sequence))
+ 131 0086 D183      		std Z+1,r29
+ 132 0088 C083      		st Z,r28
+  33:quantum/process_keycode/process_leader.c ****       return false;
+ 133               		.loc 1 33 0
+ 134 008a 8F5F      		subi r24,lo8(-(1))
+ 135 008c 8093 0000 		sts leader_sequence_size,r24
+ 136               	.L8:
+  34:quantum/process_keycode/process_leader.c ****     }
+ 137               		.loc 1 34 0
+ 138 0090 80E0      		ldi r24,0
+ 139               	.L5:
+ 140               	/* epilogue start */
+  38:quantum/process_keycode/process_leader.c **** }...
+ 141               		.loc 1 38 0
+ 142 0092 DF91      		pop r29
+ 143 0094 CF91      		pop r28
+ 144               	.LVL8:
+ 145 0096 0895      		ret
+ 146               		.cfi_endproc
+ 147               	.LFE109:
+ 149               	.global	leader_sequence_size
+ 150               		.section	.bss.leader_sequence_size,"aw",@nobits
+ 153               	leader_sequence_size:
+ 154 0000 00        		.zero	1
+ 155               	.global	leader_sequence
+ 156               		.section	.bss.leader_sequence,"aw",@nobits
+ 159               	leader_sequence:
+ 160 0000 0000 0000 		.zero	10
+ 160      0000 0000 
+ 160      0000 
+ 161               	.global	leader_time
+ 162               		.section	.bss.leader_time,"aw",@nobits
+ 165               	leader_time:
+ 166 0000 0000      		.zero	2
+ 167               	.global	leading
+ 168               		.section	.bss.leading,"aw",@nobits
+ 171               	leading:
+ 172 0000 00        		.zero	1
+ 173               		.text
+ 174               	.Letext0:
+ 175               		.file 2 "c:\\users\\james\\mhv_avr\\avr\\include\\stdint.h"
+ 176               		.file 3 "./tmk_core/common/keyboard.h"
+ 177               		.file 4 "./tmk_core/common/action.h"
+ 178               		.file 5 "./tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.h"
+ 179               		.file 6 "./quantum/quantum_keycodes.h"
+ 180               		.file 7 "./tmk_core/common/timer.h"
+DEFINED SYMBOLS
+                            *ABS*:00000000 process_leader.c
+C:\Users\James\AppData\Local\Temp\ccsR0m5I.s:2      *ABS*:0000003e __SP_H__
+C:\Users\James\AppData\Local\Temp\ccsR0m5I.s:3      *ABS*:0000003d __SP_L__
+C:\Users\James\AppData\Local\Temp\ccsR0m5I.s:4      *ABS*:0000003f __SREG__
+C:\Users\James\AppData\Local\Temp\ccsR0m5I.s:5      *ABS*:00000000 __tmp_reg__
+C:\Users\James\AppData\Local\Temp\ccsR0m5I.s:6      *ABS*:00000001 __zero_reg__
+C:\Users\James\AppData\Local\Temp\ccsR0m5I.s:13     .text.leader_start:00000000 leader_start
+C:\Users\James\AppData\Local\Temp\ccsR0m5I.s:29     .text.leader_end:00000000 leader_end
+C:\Users\James\AppData\Local\Temp\ccsR0m5I.s:44     .text.process_leader:00000000 process_leader
+C:\Users\James\AppData\Local\Temp\ccsR0m5I.s:171    .bss.leading:00000000 leading
+C:\Users\James\AppData\Local\Temp\ccsR0m5I.s:165    .bss.leader_time:00000000 leader_time
+C:\Users\James\AppData\Local\Temp\ccsR0m5I.s:153    .bss.leader_sequence_size:00000000 leader_sequence_size
+C:\Users\James\AppData\Local\Temp\ccsR0m5I.s:159    .bss.leader_sequence:00000000 leader_sequence
+
+UNDEFINED SYMBOLS
+timer_read
+timer_elapsed
+__do_clear_bss
