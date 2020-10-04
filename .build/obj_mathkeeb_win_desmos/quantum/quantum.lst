@@ -2841,41 +2841,41 @@
  1771               		.file 18 "./tmk_core/common/timer.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 quantum.c
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:2      *ABS*:0000003e __SP_H__
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:3      *ABS*:0000003d __SP_L__
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:4      *ABS*:0000003f __SREG__
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:5      *ABS*:00000000 __tmp_reg__
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:6      *ABS*:00000001 __zero_reg__
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:12     .text.do_code16:00000000 do_code16
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:131    .text.register_code16:00000000 register_code16
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:164    .text.unregister_code16:00000000 unregister_code16
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:217    .text.process_action_kb:00000000 process_action_kb
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:236    .text.process_record_user:00000000 process_record_user
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:255    .text.process_record_kb:00000000 process_record_kb
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:273    .text.reset_keyboard:00000000 reset_keyboard
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:308    .text.process_record_quantum:00000000 process_record_quantum
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1752   .bss.shift_interrupted:00000000 shift_interrupted
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1747   .bss.scs_timer:00000000 scs_timer
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:765    .text.send_string:00000000 send_string
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1482   .progmem.data.ascii_to_qwerty_keycode_lut:00000000 ascii_to_qwerty_keycode_lut
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1615   .progmem.data.ascii_to_qwerty_shift_lut:00000000 ascii_to_qwerty_shift_lut
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:884    .text.update_tri_layer:00000000 update_tri_layer
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:995    .text.tap_random_base64:00000000 tap_random_base64
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1117   .text.matrix_init_quantum:00000000 matrix_init_quantum
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1134   .text.matrix_scan_quantum:00000000 matrix_scan_quantum
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1151   .text.backlight_init_ports:00000000 backlight_init_ports
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1166   .text.backlight_set:00000000 backlight_set
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1182   .text.send_nibble:00000000 send_nibble
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1247   .text.send_byte:00000000 send_byte
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1284   .text.send_word:00000000 send_word
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1318   .text.send_dword:00000000 send_dword
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1368   .text.api_send_unicode:00000000 api_send_unicode
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1384   .text.led_set_user:00000000 led_set_user
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1400   .text.led_set_kb:00000000 led_set_kb
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1418   .text.led_init_ports:00000000 led_init_ports
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1433   .text.led_set:00000000 led_set
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1451   .text.startup_user:00000000 startup_user
-C:\Users\James\AppData\Local\Temp\ccXtwLih.s:1466   .text.shutdown_user:00000000 shutdown_user
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:2      *ABS*:0000003e __SP_H__
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:3      *ABS*:0000003d __SP_L__
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:4      *ABS*:0000003f __SREG__
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:5      *ABS*:00000000 __tmp_reg__
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:6      *ABS*:00000001 __zero_reg__
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:12     .text.do_code16:00000000 do_code16
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:131    .text.register_code16:00000000 register_code16
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:164    .text.unregister_code16:00000000 unregister_code16
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:217    .text.process_action_kb:00000000 process_action_kb
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:236    .text.process_record_user:00000000 process_record_user
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:255    .text.process_record_kb:00000000 process_record_kb
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:273    .text.reset_keyboard:00000000 reset_keyboard
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:308    .text.process_record_quantum:00000000 process_record_quantum
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1752   .bss.shift_interrupted:00000000 shift_interrupted
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1747   .bss.scs_timer:00000000 scs_timer
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:765    .text.send_string:00000000 send_string
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1482   .progmem.data.ascii_to_qwerty_keycode_lut:00000000 ascii_to_qwerty_keycode_lut
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1615   .progmem.data.ascii_to_qwerty_shift_lut:00000000 ascii_to_qwerty_shift_lut
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:884    .text.update_tri_layer:00000000 update_tri_layer
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:995    .text.tap_random_base64:00000000 tap_random_base64
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1117   .text.matrix_init_quantum:00000000 matrix_init_quantum
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1134   .text.matrix_scan_quantum:00000000 matrix_scan_quantum
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1151   .text.backlight_init_ports:00000000 backlight_init_ports
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1166   .text.backlight_set:00000000 backlight_set
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1182   .text.send_nibble:00000000 send_nibble
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1247   .text.send_byte:00000000 send_byte
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1284   .text.send_word:00000000 send_word
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1318   .text.send_dword:00000000 send_dword
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1368   .text.api_send_unicode:00000000 api_send_unicode
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1384   .text.led_set_user:00000000 led_set_user
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1400   .text.led_set_kb:00000000 led_set_kb
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1418   .text.led_init_ports:00000000 led_init_ports
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1433   .text.led_set:00000000 led_set
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1451   .text.startup_user:00000000 startup_user
+C:\Users\James\AppData\Local\Temp\ccH84rll.s:1466   .text.shutdown_user:00000000 shutdown_user
 
 UNDEFINED SYMBOLS
 register_code

@@ -12,10 +12,10 @@
   12               		.file 2 "./tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 mathkeeb.c
-C:\Users\James\AppData\Local\Temp\cciHUls0.s:2      *ABS*:0000003e __SP_H__
-C:\Users\James\AppData\Local\Temp\cciHUls0.s:3      *ABS*:0000003d __SP_L__
-C:\Users\James\AppData\Local\Temp\cciHUls0.s:4      *ABS*:0000003f __SREG__
-C:\Users\James\AppData\Local\Temp\cciHUls0.s:5      *ABS*:00000000 __tmp_reg__
-C:\Users\James\AppData\Local\Temp\cciHUls0.s:6      *ABS*:00000001 __zero_reg__
+C:\Users\James\AppData\Local\Temp\ccBWfb14.s:2      *ABS*:0000003e __SP_H__
+C:\Users\James\AppData\Local\Temp\ccBWfb14.s:3      *ABS*:0000003d __SP_L__
+C:\Users\James\AppData\Local\Temp\ccBWfb14.s:4      *ABS*:0000003f __SREG__
+C:\Users\James\AppData\Local\Temp\ccBWfb14.s:5      *ABS*:00000000 __tmp_reg__
+C:\Users\James\AppData\Local\Temp\ccBWfb14.s:6      *ABS*:00000001 __zero_reg__
 
 NO UNDEFINED SYMBOLS

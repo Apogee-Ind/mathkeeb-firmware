@@ -797,20 +797,20 @@
  528               		.file 10 "./tmk_core/common/action_util.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 process_unicode.c
-C:\Users\James\AppData\Local\Temp\ccX6aDCS.s:2      *ABS*:0000003e __SP_H__
-C:\Users\James\AppData\Local\Temp\ccX6aDCS.s:3      *ABS*:0000003d __SP_L__
-C:\Users\James\AppData\Local\Temp\ccX6aDCS.s:4      *ABS*:0000003f __SREG__
-C:\Users\James\AppData\Local\Temp\ccX6aDCS.s:5      *ABS*:00000000 __tmp_reg__
-C:\Users\James\AppData\Local\Temp\ccX6aDCS.s:6      *ABS*:00000001 __zero_reg__
-C:\Users\James\AppData\Local\Temp\ccX6aDCS.s:13     .text.hex_to_keycode:00000000 hex_to_keycode
-C:\Users\James\AppData\Local\Temp\ccX6aDCS.s:51     .text.set_unicode_input_mode:00000000 set_unicode_input_mode
-C:\Users\James\AppData\Local\Temp\ccX6aDCS.s:517    .bss.input_mode:00000000 input_mode
-C:\Users\James\AppData\Local\Temp\ccX6aDCS.s:69     .text.get_unicode_input_mode:00000000 get_unicode_input_mode
-C:\Users\James\AppData\Local\Temp\ccX6aDCS.s:86     .text.unicode_input_start:00000000 unicode_input_start
+C:\Users\James\AppData\Local\Temp\ccKB1KI2.s:2      *ABS*:0000003e __SP_H__
+C:\Users\James\AppData\Local\Temp\ccKB1KI2.s:3      *ABS*:0000003d __SP_L__
+C:\Users\James\AppData\Local\Temp\ccKB1KI2.s:4      *ABS*:0000003f __SREG__
+C:\Users\James\AppData\Local\Temp\ccKB1KI2.s:5      *ABS*:00000000 __tmp_reg__
+C:\Users\James\AppData\Local\Temp\ccKB1KI2.s:6      *ABS*:00000001 __zero_reg__
+C:\Users\James\AppData\Local\Temp\ccKB1KI2.s:13     .text.hex_to_keycode:00000000 hex_to_keycode
+C:\Users\James\AppData\Local\Temp\ccKB1KI2.s:51     .text.set_unicode_input_mode:00000000 set_unicode_input_mode
+C:\Users\James\AppData\Local\Temp\ccKB1KI2.s:517    .bss.input_mode:00000000 input_mode
+C:\Users\James\AppData\Local\Temp\ccKB1KI2.s:69     .text.get_unicode_input_mode:00000000 get_unicode_input_mode
+C:\Users\James\AppData\Local\Temp\ccKB1KI2.s:86     .text.unicode_input_start:00000000 unicode_input_start
                             *COM*:00000001 mods
-C:\Users\James\AppData\Local\Temp\ccX6aDCS.s:260    .text.unicode_input_finish:00000000 unicode_input_finish
-C:\Users\James\AppData\Local\Temp\ccX6aDCS.s:369    .text.register_hex:00000000 register_hex
-C:\Users\James\AppData\Local\Temp\ccX6aDCS.s:458    .text.process_unicode:00000000 process_unicode
+C:\Users\James\AppData\Local\Temp\ccKB1KI2.s:260    .text.unicode_input_finish:00000000 unicode_input_finish
+C:\Users\James\AppData\Local\Temp\ccKB1KI2.s:369    .text.register_hex:00000000 register_hex
+C:\Users\James\AppData\Local\Temp\ccKB1KI2.s:458    .text.process_unicode:00000000 process_unicode
 
 UNDEFINED SYMBOLS
 keyboard_report

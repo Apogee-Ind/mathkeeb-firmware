@@ -477,19 +477,19 @@
  333               		.file 9 "./tmk_core/common/action.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 suspend.c
-C:\Users\James\AppData\Local\Temp\ccoaXcpA.s:2      *ABS*:0000003e __SP_H__
-C:\Users\James\AppData\Local\Temp\ccoaXcpA.s:3      *ABS*:0000003d __SP_L__
-C:\Users\James\AppData\Local\Temp\ccoaXcpA.s:4      *ABS*:0000003f __SREG__
-C:\Users\James\AppData\Local\Temp\ccoaXcpA.s:5      *ABS*:00000000 __tmp_reg__
-C:\Users\James\AppData\Local\Temp\ccoaXcpA.s:6      *ABS*:00000001 __zero_reg__
-C:\Users\James\AppData\Local\Temp\ccoaXcpA.s:13     .text.suspend_idle:00000000 suspend_idle
-C:\Users\James\AppData\Local\Temp\ccoaXcpA.s:60     .text.suspend_power_down:00000000 suspend_power_down
-C:\Users\James\AppData\Local\Temp\ccoaXcpA.s:322    .bss.wdt_timeout:00000000 wdt_timeout
-C:\Users\James\AppData\Local\Temp\ccoaXcpA.s:142    .text.matrix_power_up:00000000 matrix_power_up
-C:\Users\James\AppData\Local\Temp\ccoaXcpA.s:157    .text.matrix_power_down:00000000 matrix_power_down
-C:\Users\James\AppData\Local\Temp\ccoaXcpA.s:172    .text.suspend_wakeup_condition:00000000 suspend_wakeup_condition
-C:\Users\James\AppData\Local\Temp\ccoaXcpA.s:231    .text.suspend_wakeup_init:00000000 suspend_wakeup_init
-C:\Users\James\AppData\Local\Temp\ccoaXcpA.s:253    .text.__vector_12:00000000 __vector_12
+C:\Users\James\AppData\Local\Temp\ccqfjsZr.s:2      *ABS*:0000003e __SP_H__
+C:\Users\James\AppData\Local\Temp\ccqfjsZr.s:3      *ABS*:0000003d __SP_L__
+C:\Users\James\AppData\Local\Temp\ccqfjsZr.s:4      *ABS*:0000003f __SREG__
+C:\Users\James\AppData\Local\Temp\ccqfjsZr.s:5      *ABS*:00000000 __tmp_reg__
+C:\Users\James\AppData\Local\Temp\ccqfjsZr.s:6      *ABS*:00000001 __zero_reg__
+C:\Users\James\AppData\Local\Temp\ccqfjsZr.s:13     .text.suspend_idle:00000000 suspend_idle
+C:\Users\James\AppData\Local\Temp\ccqfjsZr.s:60     .text.suspend_power_down:00000000 suspend_power_down
+C:\Users\James\AppData\Local\Temp\ccqfjsZr.s:322    .bss.wdt_timeout:00000000 wdt_timeout
+C:\Users\James\AppData\Local\Temp\ccqfjsZr.s:142    .text.matrix_power_up:00000000 matrix_power_up
+C:\Users\James\AppData\Local\Temp\ccqfjsZr.s:157    .text.matrix_power_down:00000000 matrix_power_down
+C:\Users\James\AppData\Local\Temp\ccqfjsZr.s:172    .text.suspend_wakeup_condition:00000000 suspend_wakeup_condition
+C:\Users\James\AppData\Local\Temp\ccqfjsZr.s:231    .text.suspend_wakeup_init:00000000 suspend_wakeup_init
+C:\Users\James\AppData\Local\Temp\ccqfjsZr.s:253    .text.__vector_12:00000000 __vector_12
 
 UNDEFINED SYMBOLS
 USB_DeviceState

@@ -1,0 +1,1 @@
+-Wl,--gc-sections -Wl,-Map=./.build/mathkeeb_nordic_windows.map,--cref     -lm 

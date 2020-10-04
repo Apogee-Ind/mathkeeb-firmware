@@ -34,6 +34,7 @@
 #define NO_GRV	LSFT(NO_ACUT)
 
 #define NO_CIRC LSFT(NO_QUOT)
+#define NO_ASTR LSFT(NO_APOS)
 
 #define NO_GRTR	LSFT(NO_LESS)
 #define NO_SCLN LSFT(KC_COMM)

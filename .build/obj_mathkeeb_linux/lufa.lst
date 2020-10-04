@@ -3344,30 +3344,30 @@
  1138               		.file 21 "./tmk_core/common/host.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 lufa.c
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:2      *ABS*:0000003e __SP_H__
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:3      *ABS*:0000003d __SP_L__
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:4      *ABS*:0000003f __SREG__
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:5      *ABS*:00000000 __tmp_reg__
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:6      *ABS*:00000001 __zero_reg__
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:12     .text.keyboard_leds:00000000 keyboard_leds
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:1106   .bss.keyboard_led_stats:00000000 keyboard_led_stats
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:29     .text.send_consumer:00000000 send_consumer
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:150    .text.send_system:00000000 send_system
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:271    .text.send_mouse:00000000 send_mouse
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:360    .text.send_keyboard:00000000 send_keyboard
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:1112   .data.keyboard_protocol:00000000 keyboard_protocol
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:1101   .bss.keyboard_report_sent:00000000 keyboard_report_sent
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:541    .text.EVENT_USB_Device_Connect:00000000 EVENT_USB_Device_Connect
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:579    .text.EVENT_USB_Device_Disconnect:00000000 EVENT_USB_Device_Disconnect
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:596    .text.EVENT_USB_Device_Reset:00000000 EVENT_USB_Device_Reset
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:611    .text.EVENT_USB_Device_Suspend:00000000 EVENT_USB_Device_Suspend
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:626    .text.EVENT_USB_Device_WakeUp:00000000 EVENT_USB_Device_WakeUp
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:643    .text.EVENT_USB_Device_ConfigurationChanged:00000000 EVENT_USB_Device_ConfigurationChanged
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:695    .text.EVENT_USB_Device_ControlRequest:00000000 EVENT_USB_Device_ControlRequest
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:1118   .bss.keyboard_idle:00000000 keyboard_idle
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:966    .text.sendchar:00000000 sendchar
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:985    .text.startup.main:00000000 main
-C:\Users\James\AppData\Local\Temp\cctAye5E.s:1092   .data.lufa_driver:00000000 lufa_driver
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:2      *ABS*:0000003e __SP_H__
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:3      *ABS*:0000003d __SP_L__
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:4      *ABS*:0000003f __SREG__
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:5      *ABS*:00000000 __tmp_reg__
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:6      *ABS*:00000001 __zero_reg__
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:12     .text.keyboard_leds:00000000 keyboard_leds
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:1106   .bss.keyboard_led_stats:00000000 keyboard_led_stats
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:29     .text.send_consumer:00000000 send_consumer
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:150    .text.send_system:00000000 send_system
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:271    .text.send_mouse:00000000 send_mouse
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:360    .text.send_keyboard:00000000 send_keyboard
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:1112   .data.keyboard_protocol:00000000 keyboard_protocol
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:1101   .bss.keyboard_report_sent:00000000 keyboard_report_sent
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:541    .text.EVENT_USB_Device_Connect:00000000 EVENT_USB_Device_Connect
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:579    .text.EVENT_USB_Device_Disconnect:00000000 EVENT_USB_Device_Disconnect
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:596    .text.EVENT_USB_Device_Reset:00000000 EVENT_USB_Device_Reset
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:611    .text.EVENT_USB_Device_Suspend:00000000 EVENT_USB_Device_Suspend
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:626    .text.EVENT_USB_Device_WakeUp:00000000 EVENT_USB_Device_WakeUp
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:643    .text.EVENT_USB_Device_ConfigurationChanged:00000000 EVENT_USB_Device_ConfigurationChanged
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:695    .text.EVENT_USB_Device_ControlRequest:00000000 EVENT_USB_Device_ControlRequest
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:1118   .bss.keyboard_idle:00000000 keyboard_idle
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:966    .text.sendchar:00000000 sendchar
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:985    .text.startup.main:00000000 main
+C:\Users\James\AppData\Local\Temp\ccPV7zWB.s:1092   .data.lufa_driver:00000000 lufa_driver
 
 UNDEFINED SYMBOLS
 USB_DeviceState

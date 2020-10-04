@@ -582,18 +582,18 @@
  376               		.file 12 "./tmk_core/common/host.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 keyboard.c
-C:\Users\James\AppData\Local\Temp\ccmbM66b.s:2      *ABS*:0000003e __SP_H__
-C:\Users\James\AppData\Local\Temp\ccmbM66b.s:3      *ABS*:0000003d __SP_L__
-C:\Users\James\AppData\Local\Temp\ccmbM66b.s:4      *ABS*:0000003f __SREG__
-C:\Users\James\AppData\Local\Temp\ccmbM66b.s:5      *ABS*:00000000 __tmp_reg__
-C:\Users\James\AppData\Local\Temp\ccmbM66b.s:6      *ABS*:00000001 __zero_reg__
-C:\Users\James\AppData\Local\Temp\ccmbM66b.s:13     .text.matrix_setup:00000000 matrix_setup
-C:\Users\James\AppData\Local\Temp\ccmbM66b.s:29     .text.keyboard_setup:00000000 keyboard_setup
-C:\Users\James\AppData\Local\Temp\ccmbM66b.s:46     .text.keyboard_init:00000000 keyboard_init
-C:\Users\James\AppData\Local\Temp\ccmbM66b.s:69     .text.keyboard_task:00000000 keyboard_task
-C:\Users\James\AppData\Local\Temp\ccmbM66b.s:362    .bss.matrix_prev.4866:00000000 matrix_prev.4866
-C:\Users\James\AppData\Local\Temp\ccmbM66b.s:357    .bss.led_status.4867:00000000 led_status.4867
-C:\Users\James\AppData\Local\Temp\ccmbM66b.s:339    .text.keyboard_set_leds:00000000 keyboard_set_leds
+C:\Users\James\AppData\Local\Temp\ccZJYK0x.s:2      *ABS*:0000003e __SP_H__
+C:\Users\James\AppData\Local\Temp\ccZJYK0x.s:3      *ABS*:0000003d __SP_L__
+C:\Users\James\AppData\Local\Temp\ccZJYK0x.s:4      *ABS*:0000003f __SREG__
+C:\Users\James\AppData\Local\Temp\ccZJYK0x.s:5      *ABS*:00000000 __tmp_reg__
+C:\Users\James\AppData\Local\Temp\ccZJYK0x.s:6      *ABS*:00000001 __zero_reg__
+C:\Users\James\AppData\Local\Temp\ccZJYK0x.s:13     .text.matrix_setup:00000000 matrix_setup
+C:\Users\James\AppData\Local\Temp\ccZJYK0x.s:29     .text.keyboard_setup:00000000 keyboard_setup
+C:\Users\James\AppData\Local\Temp\ccZJYK0x.s:46     .text.keyboard_init:00000000 keyboard_init
+C:\Users\James\AppData\Local\Temp\ccZJYK0x.s:69     .text.keyboard_task:00000000 keyboard_task
+C:\Users\James\AppData\Local\Temp\ccZJYK0x.s:362    .bss.matrix_prev.4866:00000000 matrix_prev.4866
+C:\Users\James\AppData\Local\Temp\ccZJYK0x.s:357    .bss.led_status.4867:00000000 led_status.4867
+C:\Users\James\AppData\Local\Temp\ccZJYK0x.s:339    .text.keyboard_set_leds:00000000 keyboard_set_leds
 
 UNDEFINED SYMBOLS
 timer_init

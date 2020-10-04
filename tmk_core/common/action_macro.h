@@ -89,6 +89,7 @@ enum macro_command_id{
 #define U(key)          UP(KC_##key)
 /* key type */
 #define T(key)          TYPE(KC_##key)
+#define R(key)         TYPE(key)
 /* wait */
 #define W(ms)           WAIT(ms)
 /* interval */

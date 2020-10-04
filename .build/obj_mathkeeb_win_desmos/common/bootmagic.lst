@@ -942,14 +942,14 @@
  593               		.file 13 "./tmk_core/common/action_layer.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 bootmagic.c
-C:\Users\James\AppData\Local\Temp\ccGUglJF.s:2      *ABS*:0000003e __SP_H__
-C:\Users\James\AppData\Local\Temp\ccGUglJF.s:3      *ABS*:0000003d __SP_L__
-C:\Users\James\AppData\Local\Temp\ccGUglJF.s:4      *ABS*:0000003f __SREG__
-C:\Users\James\AppData\Local\Temp\ccGUglJF.s:5      *ABS*:00000000 __tmp_reg__
-C:\Users\James\AppData\Local\Temp\ccGUglJF.s:6      *ABS*:00000001 __zero_reg__
-C:\Users\James\AppData\Local\Temp\ccGUglJF.s:12     .text.scan_keycode:00000000 scan_keycode
-C:\Users\James\AppData\Local\Temp\ccGUglJF.s:140    .text.bootmagic_scan_keycode:00000000 bootmagic_scan_keycode
-C:\Users\James\AppData\Local\Temp\ccGUglJF.s:183    .text.bootmagic:00000000 bootmagic
+C:\Users\James\AppData\Local\Temp\ccrJW68f.s:2      *ABS*:0000003e __SP_H__
+C:\Users\James\AppData\Local\Temp\ccrJW68f.s:3      *ABS*:0000003d __SP_L__
+C:\Users\James\AppData\Local\Temp\ccrJW68f.s:4      *ABS*:0000003f __SREG__
+C:\Users\James\AppData\Local\Temp\ccrJW68f.s:5      *ABS*:00000000 __tmp_reg__
+C:\Users\James\AppData\Local\Temp\ccrJW68f.s:6      *ABS*:00000001 __zero_reg__
+C:\Users\James\AppData\Local\Temp\ccrJW68f.s:12     .text.scan_keycode:00000000 scan_keycode
+C:\Users\James\AppData\Local\Temp\ccrJW68f.s:140    .text.bootmagic_scan_keycode:00000000 bootmagic_scan_keycode
+C:\Users\James\AppData\Local\Temp\ccrJW68f.s:183    .text.bootmagic:00000000 bootmagic
                             *COM*:00000002 keymap_config
 
 UNDEFINED SYMBOLS

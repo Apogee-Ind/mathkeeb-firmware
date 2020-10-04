@@ -959,17 +959,17 @@
  731               		.file 11 "quantum/keycode_config.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 keymap_common.c
-C:\Users\James\AppData\Local\Temp\ccyPtWw1.s:2      *ABS*:0000003e __SP_H__
-C:\Users\James\AppData\Local\Temp\ccyPtWw1.s:3      *ABS*:0000003d __SP_L__
-C:\Users\James\AppData\Local\Temp\ccyPtWw1.s:4      *ABS*:0000003f __SREG__
-C:\Users\James\AppData\Local\Temp\ccyPtWw1.s:5      *ABS*:00000000 __tmp_reg__
-C:\Users\James\AppData\Local\Temp\ccyPtWw1.s:6      *ABS*:00000001 __zero_reg__
-C:\Users\James\AppData\Local\Temp\ccyPtWw1.s:13     .text.action_get_macro:00000000 action_get_macro
-C:\Users\James\AppData\Local\Temp\ccyPtWw1.s:34     .text.action_function:00000000 action_function
-C:\Users\James\AppData\Local\Temp\ccyPtWw1.s:50     .text.keymap_key_to_keycode:00000000 keymap_key_to_keycode
-C:\Users\James\AppData\Local\Temp\ccyPtWw1.s:98     .text.keymap_function_id_to_action:00000000 keymap_function_id_to_action
-C:\Users\James\AppData\Local\Temp\ccyPtWw1.s:719    .progmem.data.fn_actions:00000000 fn_actions
-C:\Users\James\AppData\Local\Temp\ccyPtWw1.s:132    .text.action_for_key:00000000 action_for_key
+C:\Users\James\AppData\Local\Temp\ccDjNzx0.s:2      *ABS*:0000003e __SP_H__
+C:\Users\James\AppData\Local\Temp\ccDjNzx0.s:3      *ABS*:0000003d __SP_L__
+C:\Users\James\AppData\Local\Temp\ccDjNzx0.s:4      *ABS*:0000003f __SREG__
+C:\Users\James\AppData\Local\Temp\ccDjNzx0.s:5      *ABS*:00000000 __tmp_reg__
+C:\Users\James\AppData\Local\Temp\ccDjNzx0.s:6      *ABS*:00000001 __zero_reg__
+C:\Users\James\AppData\Local\Temp\ccDjNzx0.s:13     .text.action_get_macro:00000000 action_get_macro
+C:\Users\James\AppData\Local\Temp\ccDjNzx0.s:34     .text.action_function:00000000 action_function
+C:\Users\James\AppData\Local\Temp\ccDjNzx0.s:50     .text.keymap_key_to_keycode:00000000 keymap_key_to_keycode
+C:\Users\James\AppData\Local\Temp\ccDjNzx0.s:98     .text.keymap_function_id_to_action:00000000 keymap_function_id_to_action
+C:\Users\James\AppData\Local\Temp\ccDjNzx0.s:719    .progmem.data.fn_actions:00000000 fn_actions
+C:\Users\James\AppData\Local\Temp\ccDjNzx0.s:132    .text.action_for_key:00000000 action_for_key
 
 UNDEFINED SYMBOLS
 keymaps

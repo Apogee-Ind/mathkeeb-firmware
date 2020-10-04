@@ -1258,33 +1258,33 @@
  1055               		.file 5 "./tmk_core/common/action.h"
 DEFINED SYMBOLS
                             *ABS*:00000000 action_layer.c
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:2      *ABS*:0000003e __SP_H__
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:3      *ABS*:0000003d __SP_L__
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:4      *ABS*:0000003f __SREG__
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:5      *ABS*:00000000 __tmp_reg__
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:6      *ABS*:00000001 __zero_reg__
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:13     .text.default_layer_debug:00000000 default_layer_debug
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:29     .text.default_layer_set:00000000 default_layer_set
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:1048   .bss.default_layer_state:00000000 default_layer_state
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:56     .text.default_layer_or:00000000 default_layer_or
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:111    .text.default_layer_and:00000000 default_layer_and
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:166    .text.default_layer_xor:00000000 default_layer_xor
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:221    .text.layer_clear:00000000 layer_clear
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:1042   .bss.layer_state:00000000 layer_state
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:248    .text.layer_move:00000000 layer_move
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:289    .text.layer_on:00000000 layer_on
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:340    .text.layer_off:00000000 layer_off
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:395    .text.layer_invert:00000000 layer_invert
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:446    .text.layer_or:00000000 layer_or
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:501    .text.layer_and:00000000 layer_and
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:556    .text.layer_xor:00000000 layer_xor
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:611    .text.layer_debug:00000000 layer_debug
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:626    .text.update_source_layers_cache:00000000 update_source_layers_cache
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:1036   .bss.source_layers_cache:00000000 source_layers_cache
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:713    .text.read_source_layers_cache:00000000 read_source_layers_cache
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:797    .text.layer_switch_get_layer:00000000 layer_switch_get_layer
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:918    .text.layer_switch_get_action:00000000 layer_switch_get_action
-C:\Users\James\AppData\Local\Temp\ccOu8K9z.s:955    .text.store_or_get_action:00000000 store_or_get_action
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:2      *ABS*:0000003e __SP_H__
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:3      *ABS*:0000003d __SP_L__
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:4      *ABS*:0000003f __SREG__
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:5      *ABS*:00000000 __tmp_reg__
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:6      *ABS*:00000001 __zero_reg__
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:13     .text.default_layer_debug:00000000 default_layer_debug
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:29     .text.default_layer_set:00000000 default_layer_set
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:1048   .bss.default_layer_state:00000000 default_layer_state
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:56     .text.default_layer_or:00000000 default_layer_or
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:111    .text.default_layer_and:00000000 default_layer_and
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:166    .text.default_layer_xor:00000000 default_layer_xor
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:221    .text.layer_clear:00000000 layer_clear
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:1042   .bss.layer_state:00000000 layer_state
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:248    .text.layer_move:00000000 layer_move
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:289    .text.layer_on:00000000 layer_on
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:340    .text.layer_off:00000000 layer_off
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:395    .text.layer_invert:00000000 layer_invert
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:446    .text.layer_or:00000000 layer_or
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:501    .text.layer_and:00000000 layer_and
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:556    .text.layer_xor:00000000 layer_xor
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:611    .text.layer_debug:00000000 layer_debug
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:626    .text.update_source_layers_cache:00000000 update_source_layers_cache
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:1036   .bss.source_layers_cache:00000000 source_layers_cache
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:713    .text.read_source_layers_cache:00000000 read_source_layers_cache
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:797    .text.layer_switch_get_layer:00000000 layer_switch_get_layer
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:918    .text.layer_switch_get_action:00000000 layer_switch_get_action
+C:\Users\James\AppData\Local\Temp\ccFIND1V.s:955    .text.store_or_get_action:00000000 store_or_get_action
 
 UNDEFINED SYMBOLS
 clear_keyboard_but_mods
