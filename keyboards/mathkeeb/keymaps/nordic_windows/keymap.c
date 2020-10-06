@@ -200,7 +200,7 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 			break;
 		case 9:
 			if (record->event.pressed) {
-				return MACRO( T(1), T(0), D(LSFT), T(RBRC), U(LSFT), T(SPC), T(DEL), END );
+				return MACRO( T(1), T(0), D(LSFT), T(RBRC), U(LSFT), END );
 			}
 			break;
 		case 10:
@@ -295,22 +295,22 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 			break;
 		case 30:
 			if (record->event.pressed) {
-				return MACRO( D(LALT), T(P2), T(P2), T(P7), U(LALT), END);
+				return MACRO( D(RALT), T(P2), T(P2), T(P7), U(RALT), END);
 			}
 			break;
 		case 31:
 			if (record->event.pressed) {
-				return MACRO( D(LALT), T(P2), T(P2), T(P8), U(LALT), END);
+				return MACRO( D(RALT), T(P2), T(P2), T(P8), U(RALT), END);
 			}
 			break;
 		case 32:
 			if (record->event.pressed) {
-				return MACRO( D(LALT), T(P2), T(P4), T(P1), U(LALT), END);
+				return MACRO( D(RALT), T(P0), T(P1), T(P7), T(P7), U(RALT), END);
 			}
 			break;
 		case 33:
 			if (record->event.pressed) {
-				return MACRO( D(LALT), T(P2), T(P5), T(P1), U(LALT), END);
+				return MACRO( D(RALT), T(P2), T(P5), T(P1), U(RALT), END);
 			}
 			break;
 		case 34:
@@ -330,12 +330,12 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 			break;
 		case 37:
 			if (record->event.pressed) {
-				return MACRO( T(1), T(0), T(DOT), D(LSFT), T(RBRC), U(LSFT), T(SPC), T(DEL), END );
+				return MACRO( T(1), T(0), T(DOT), D(LSFT), T(RBRC), U(LSFT), END );
 			}
 			break;
 		case 38:
 			if (record->event.pressed) {
-				return MACRO( T(DOT), D(LSFT), T(RBRC), U(LSFT), T(SPC), T(DEL), END );
+				return MACRO( T(DOT), D(LSFT), T(RBRC), U(LSFT), END );
 			}
 			break;
 		case 39:
