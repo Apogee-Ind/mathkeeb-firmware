@@ -405,7 +405,7 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 			break;
 		case 52:
 			if (record->event.pressed) {
-				return MACRO( T(N), T(P), T(DOT), T(D), T(O), T(T), D(LSFT), T(8), U(LSFT), END)
+				return MACRO( T(N), T(P), T(DOT), T(D), T(O), T(T), D(LSFT), T(8), U(LSFT), END);
 			}
 			break;
 		case 53:
@@ -480,7 +480,7 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 			break;
 		case 67:
 			if (record->event.pressed) {
-				return MACRO( T(N), T(P), T(DOT), T(A), T(R), T(R), T(A), T(Y), D(LSFT), T(9), U(LSFT), T(LBRC), END)
+				return MACRO( T(N), T(P), T(DOT), T(A), T(R), T(R), T(A), T(Y), D(LSFT), T(9), U(LSFT), T(LBRC), END);
 			}
 			break;
 		case 68:
@@ -590,47 +590,47 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 			break;
 		case 89:
 			if (record->event.pressed) {
-				return MACRO( D(RALT), T(MINS), U(RALT), T(L), T(O), T(G), END)
+				return MACRO( D(RALT), T(MINS), U(RALT), T(L), T(O), T(G), END);
 			}
 			break;
 		case 90:
 			if (record->event.pressed) {
-				return MACRO( D(RALT), T(MINS), U(RALT), T(L), T(N), END)
+				return MACRO( D(RALT), T(MINS), U(RALT), T(L), T(N), END);
 			}
 			break;
 		case 91:
 			if (record->event.pressed) {
-				return MACRO( T(GRAVE), D(RALT), T(7), U(RALT), T(SLSH), T(1), D(RALT), T(0), U(RALT), END)
+				return MACRO( T(GRAVE), D(RALT), T(7), U(RALT), T(SLSH), T(1), D(RALT), T(0), U(RALT), END);
 			}
 			break;
 		case 92:
 			if (record->event.pressed) {
-				return MACRO( D(RALT), T(MINS), U(RALT), T(S), T(I), T(N), END)
+				return MACRO( D(RALT), T(MINS), U(RALT), T(S), T(I), T(N), END);
 			}
 			break;
 		case 93:
 			if (record->event.pressed) {
-				return MACRO( D(RALT), T(MINS), U(RALT), T(C), T(O), T(S), END)
+				return MACRO( D(RALT), T(MINS), U(RALT), T(C), T(O), T(S), END);
 			}
 			break;
 		case 94:
 			if (record->event.pressed) {
-				return MACRO( D(RALT), T(MINS), U(RALT), T(T), T(A), T(N), END)
+				return MACRO( D(RALT), T(MINS), U(RALT), T(T), T(A), T(N), END);
 			}
 			break;
 		case 95:
 			if (record->event.pressed) {
-				return MACRO( D(RALT), T(MINS), U(RALT), T(A), T(R), T(C), T(S), T(I), T(N), END)
+				return MACRO( D(RALT), T(MINS), U(RALT), T(A), T(R), T(C), T(S), T(I), T(N), END);
 			}
 			break;
 		case 96:
 			if (record->event.pressed) {
-				return MACRO( D(RALT), T(MINS), U(RALT), T(A), T(R), T(C), T(C), T(O), T(S), END)
+				return MACRO( D(RALT), T(MINS), U(RALT), T(A), T(R), T(C), T(C), T(O), T(S), END);
 			}
 			break;
 		case 97:
 			if (record->event.pressed) {
-				return MACRO( D(RALT), T(MINS), U(RALT), T(A), T(R), T(C), T(T), T(A), T(N), END)
+				return MACRO( D(RALT), T(MINS), U(RALT), T(A), T(R), T(C), T(T), T(A), T(N), END);
 			}
 			break;
 	}

@@ -404,7 +404,7 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 			break;
 		case 52:
 			if (record->event.pressed) {
-				return MACRO( T(N), T(P), T(DOT), T(D), T(O), T(T), D(LSFT), T(9), U(LSFT), END)
+				return MACRO( T(N), T(P), T(DOT), T(D), T(O), T(T), D(LSFT), T(9), U(LSFT), END);
 			}
 			break;
 		case 53:
@@ -479,7 +479,7 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 			break;
 		case 67:
 			if (record->event.pressed) {
-				return MACRO( T(N), T(P), T(DOT), T(A), T(R), T(R), T(A), T(Y), D(LSFT), T(9), U(LSFT), T(LBRC), END)
+				return MACRO( T(N), T(P), T(DOT), T(A), T(R), T(R), T(A), T(Y), D(LSFT), T(9), U(LSFT), T(LBRC), END);
 			}
 			break;
 		case 68:
@@ -589,47 +589,47 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 			break;
 		case 89:
 			if (record->event.pressed) {
-				return MACRO( T(BSLS), T(L), T(O), T(G), END)
+				return MACRO( T(BSLS), T(L), T(O), T(G), END);
 			}
 			break;
 		case 90:
 			if (record->event.pressed) {
-				return MACRO( T(BSLS), T(L), T(N), END)
+				return MACRO( T(BSLS), T(L), T(N), END);
 			}
 			break;
 		case 91:
 			if (record->event.pressed) {
-				return MACRO( D(LSFT), T(6), T(LBRC), U(LSFT), T(MINS), T(1), D(LSFT), T(RBRC), U(LSFT), END)
+				return MACRO( D(LSFT), T(6), T(LBRC), U(LSFT), T(MINS), T(1), D(LSFT), T(RBRC), U(LSFT), END);
 			}
 			break;
 		case 92:
 			if (record->event.pressed) {
-				return MACRO( T(BSLS), T(S), T(I), T(N), END)
+				return MACRO( T(BSLS), T(S), T(I), T(N), END);
 			}
 			break;
 		case 93:
 			if (record->event.pressed) {
-				return MACRO( T(BSLS), T(C), T(O), T(S), END)
+				return MACRO( T(BSLS), T(C), T(O), T(S), END);
 			}
 			break;
 		case 94:
 			if (record->event.pressed) {
-				return MACRO( T(BSLS), T(T), T(A), T(N), END)
+				return MACRO( T(BSLS), T(T), T(A), T(N), END);
 			}
 			break;
 		case 95:
 			if (record->event.pressed) {
-				return MACRO( T(BSLS), T(A), T(R), T(C), T(S), T(I), T(N), END)
+				return MACRO( T(BSLS), T(A), T(R), T(C), T(S), T(I), T(N), END);
 			}
 			break;
 		case 96:
 			if (record->event.pressed) {
-				return MACRO( T(BSLS), T(A), T(R), T(C), T(C), T(O), T(S), END)
+				return MACRO( T(BSLS), T(A), T(R), T(C), T(C), T(O), T(S), END);
 			}
 			break;
 		case 97:
 			if (record->event.pressed) {
-				return MACRO( T(BSLS), T(A), T(R), T(C), T(T), T(A), T(N), END)
+				return MACRO( T(BSLS), T(A), T(R), T(C), T(T), T(A), T(N), END);
 			}
 			break;
 	}
