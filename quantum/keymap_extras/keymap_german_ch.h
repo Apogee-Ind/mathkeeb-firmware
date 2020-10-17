@@ -56,7 +56,7 @@
 #define CH_OE KC_SCLN
 
 #define CH_PARA KC_GRAVE // secction sign § and °
-#define CH_CARR KC_EQL // carret ^ ` ~
+#define CH_CIRC KC_EQL // circumflex ^ ` ~
 #define CH_DIER KC_RBRC // dieresis ¨ ! ]
 #define CH_DLR KC_BSLS // $ £ }
 #define CH_LESS KC_NUBS // < and > and backslash
@@ -75,7 +75,7 @@
 #define CH_RPRN LSFT(KC_9) // )
 #define CH_EQL  LSFT(KC_0) // =
 #define CH_QST  LSFT(CH_QUOT) // ?
-#define CH_GRV  LSFT(CH_CARR) // `
+#define CH_GRV  LSFT(CH_CIRC) // `
 #define CH_EXLM LSFT(CH_DIER) // !
 #define CH_POND LSFT(CH_DLR) // £
 #define CH_MORE LSFT(CH_LESS) // >
