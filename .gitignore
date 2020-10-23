@@ -11,8 +11,8 @@
 *.hex
 tags
 *~
-build/
+.build/
 *.bak
 .DS_Store
 !converter/*/binary/*.hex
-!keyboard/*/binary/*.hex
+!keyboards/*/binaries/*.hex

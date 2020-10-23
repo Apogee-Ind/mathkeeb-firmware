@@ -31,13 +31,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		LT(3, KC_NO), DE_PIPE, DE_AMPR, KC_COMM, KC_0, M(0), KC_DOT),
 
 	KEYMAP(
-		M(31), M(34), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_D, 
+		M(31), M(34), KC_TRNS, KC_TRNS, M(15), KC_TRNS, KC_TRNS, KC_D, 
 		M(30), M(5), M(6), DE_LCBR, DE_RCBR, M(37), M(10), KC_TRNS, 
 		M(39), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
 		M(40), M(4), M(27), M(28), KC_HOME, KC_UP, KC_PGUP, KC_TRNS, 
 		M(41), M(44), M(33), DE_HASH, KC_LEFT, KC_TRNS, KC_RGHT, M(32), 
 		KC_TRNS, DE_CIRC, M(12), M(13), KC_END, KC_DOWN, KC_PGDN, TO(4), 
-		KC_TRNS, KC_TRNS, DE_AT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
+		KC_TRNS, KC_TRNS, DE_AT, KC_TRNS, KC_TRNS, KC_TRNS, M(11)),
 
 	KEYMAP(
 		M(54), M(55), KC_X, DE_Y, DE_Z, KC_A, KC_B, KC_C, 
@@ -49,31 +49,31 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		LT(5, KC_NO), DE_PIPE, DE_AMPR, KC_COMM, KC_0, M(0), KC_DOT),
 
 	KEYMAP(
-		M(31), M(34), KC_TRNS, KC_TRNS, KC_TRNS, M(67), KC_TRNS, KC_D, 
+		M(31), M(34), KC_TRNS, KC_TRNS, M(100), M(67), KC_TRNS, KC_D, 
 		M(30), M(5), M(6), DE_LCBR, DE_RCBR, M(66), M(47), KC_TRNS, 
-		M(59), KC_TRNS, KC_TRNS, KC_TRNS, M(52), KC_TRNS, KC_TRNS, KC_TRNS, 
+		M(59), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
 		M(60), M(4), KC_TRNS, M(63), KC_HOME, KC_UP, KC_PGUP, KC_TRNS, 
 		M(61), KC_TRNS, M(33), DE_HASH, KC_LEFT, KC_TRNS, KC_RGHT, M(32), 
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_END, KC_DOWN, KC_PGDN, TO(6), 
-		KC_TRNS, KC_TRNS, DE_AT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
+		KC_TRNS, KC_TRNS, DE_AT, KC_TRNS, KC_TRNS, KC_TRNS, M(52)),
 
 	KEYMAP(
 		M(75), M(76), KC_X, DE_Y, DE_Z, KC_A, KC_B, KC_C, 
 		M(80), DE_LESS, DE_MORE, DE_LBRC, DE_RBRC, M(89), M(90), KC_BSPC, 
-		M(92), DE_LPRN, DE_RPRN, M(83), M(78), DE_MINS, DE_PLUS, M(1), 
+		M(92), DE_LPRN, DE_RPRN, M(83), DE_ASTR, DE_MINS, DE_PLUS, M(1), 
 		M(93), M(3), M(84), M(25), KC_7, KC_8, KC_9, M(2), 
 		M(94), M(91), M(77), DE_PERC, KC_4, KC_5, KC_6, DE_EQL, 
 		KC_LSFT, DE_CIRC, M(12), M(13), KC_1, KC_2, KC_3, KC_ENT, 
 		LT(7, KC_NO), DE_PIPE, DE_AMPR, KC_COMM, KC_0, M(0), KC_DOT),
 
 	KEYMAP(
-		M(31), M(34), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_D, 
+		M(98), M(99), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_D, 
 		M(30), M(73), M(74), DE_LCBR, DE_RCBR, M(82), M(81), KC_TRNS, 
 		M(95), KC_TRNS, KC_TRNS, M(72), M(71), KC_TRNS, KC_TRNS, KC_TRNS, 
 		M(96), M(4), M(27), M(28), KC_HOME, KC_UP, KC_PGUP, KC_TRNS, 
 		M(97), M(88), M(33), M(79), KC_LEFT, KC_TRNS, KC_RGHT, M(70), 
 		KC_TRNS, M(85), M(86), M(87), KC_END, KC_DOWN, KC_PGDN, TO(0), 
-		KC_TRNS, KC_TRNS, DE_AT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
+		KC_TRNS, KC_TRNS, DE_AT, KC_TRNS, KC_TRNS, KC_TRNS, M(78)),
 
 	KEYMAP(
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
@@ -208,6 +208,11 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 				return MACRO( T(E), T(X), T(P), D(LSFT), T(8), U(LSFT), END );
 			}
 			break;
+		case 11:
+			if (record->event.pressed) {
+				return MACRO( T(D), T(O), T(T), D(LSFT), T(8), U(LSFT), END );
+			}
+			break;
 		case 12:
 			if (record->event.pressed) {
 				return MACRO( T(GRAVE), T(2), END );
@@ -221,6 +226,11 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 		case 14:
 			if (record->event.pressed) {
 				return MACRO( T(GRAVE), D(LSFT), T(8), U(LSFT), T(SLSH), T(1), D(LSFT), T(9), U(LSFT), END );
+			}
+			break;
+		case 15:
+			if (record->event.pressed) {
+				return MACRO( T(Y), T(E), T(R), T(O), T(S), D(LSFT), T(8), U(LSFT), END );
 			}
 			break;
 		case 16:
@@ -631,6 +641,21 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 		case 97:
 			if (record->event.pressed) {
 				return MACRO( D(RALT), T(MINS), U(RALT), T(A), T(R), T(C), T(T), T(A), T(N), END);
+			}
+			break;
+		case 98:
+			if (record->event.pressed) {
+				return MACRO( D(RALT), T(MINS), U(RALT), D(LSFT), T(S), U(LSFT), T(I), T(G), T(M), T(A), END);
+			}
+			break;
+		case 99:
+			if (record->event.pressed) {
+				return MACRO( D(RALT), T(MINS), U(RALT), D(LSFT), T(P), U(LSFT), T(I), END);
+			}
+			break;
+		case 100:
+			if (record->event.pressed) {
+				return MACRO( T(N), T(P), T(DOT), T(Y), T(E), T(R), T(O), T(S), D(LSFT), T(8), U(LSFT), END);
 			}
 			break;
 	}
