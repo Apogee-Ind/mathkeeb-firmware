@@ -10,14 +10,7 @@ You are welcome to clone/fork this repository, and to submit pull requests with 
 For complete changelogs, see the release notes for a given release. The `master` branch will always be kept inline with the most recent stable release. Any unreleased changes will only be found on the `snapshot` branch, or any similar branches on forked repositories. 
 
 ## TODO before version 1.1 release
-1. add `dot(` to MATLAB layer as `2nd + *`
-2. add `zeros(` to MATLAB layer as `2nd + z`
-3. add `np.zeros(` to Python layer as `2nd + z`
-4. add `\Sigma` to LaTeX layer as `2nd + Sigma`
-5. add `\Pi` to LaTeX layer as `2nd + Pi`
-4. update linux firmware to parity with Windows version
-5. update no-parentheses firmware to include new macros and keybinds
-6. rewrite desmos firmware to eliminate extra layers and macros to save space
+1. test all firmware versions
 
 ## License
 **GNU General Public License (GPL) version 2.** You are free to download, copy, modify, and redistribute the files contained in this repository. 
