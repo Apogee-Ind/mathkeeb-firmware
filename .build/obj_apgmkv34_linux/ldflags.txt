@@ -1,1 +1,0 @@
--Wl,--gc-sections -Wl,-Map=./.build/apgmkv34_linux.map,--cref     -lm 

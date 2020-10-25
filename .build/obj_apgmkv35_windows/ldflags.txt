@@ -1,1 +1,0 @@
--Wl,--gc-sections -Wl,-Map=./.build/apgmkv35_windows.map,--cref     -lm 

@@ -1,4 +1,5 @@
 #include "mathkeeb.h"
+// comment to make line numbers match those on localized keymaps
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -30,13 +31,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		LT(3, KC_NO), KC_PIPE, KC_AMPR, KC_COMM, KC_0, M(0), KC_DOT),
 
 	KEYMAP(
-		M(31), M(34), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_D, 
+		M(31), M(34), KC_TRNS, KC_TRNS, M(15), KC_TRNS, KC_TRNS, KC_D, 
 		M(30), M(5), M(6), KC_LCBR, KC_RCBR, M(37), M(10), KC_TRNS, 
 		M(39), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
 		M(40), M(4), M(27), M(28), KC_HOME, KC_UP, KC_PGUP, KC_TRNS, 
 		M(41), M(44), M(33), KC_HASH, KC_LEFT, KC_TRNS, KC_RGHT, M(32), 
 		KC_TRNS, KC_CIRC, M(12), M(13), KC_END, KC_DOWN, KC_PGDN, TO(4), 
-		KC_TRNS, KC_TRNS, KC_AT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
+		KC_TRNS, KC_TRNS, KC_AT, KC_TRNS, KC_TRNS, KC_TRNS, M(11)),
 
 	KEYMAP(
 		M(54), M(55), KC_X, KC_Y, KC_Z, KC_A, KC_B, KC_C, 
@@ -48,31 +49,31 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		LT(5, KC_NO), KC_PIPE, KC_AMPR, KC_COMM, KC_0, M(0), KC_DOT),
 
 	KEYMAP(
-		M(31), M(34), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_D, 
+		M(31), M(34), KC_TRNS, KC_TRNS, M(100), M(67), KC_TRNS, KC_D, 
 		M(30), M(5), M(6), KC_LCBR, KC_RCBR, M(66), M(47), KC_TRNS, 
 		M(59), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
 		M(60), M(4), KC_TRNS, M(63), KC_HOME, KC_UP, KC_PGUP, KC_TRNS, 
 		M(61), KC_TRNS, M(33), KC_HASH, KC_LEFT, KC_TRNS, KC_RGHT, M(32), 
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_END, KC_DOWN, KC_PGDN, TO(6), 
-		KC_TRNS, KC_TRNS, KC_AT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
+		KC_TRNS, KC_TRNS, KC_AT, KC_TRNS, KC_TRNS, KC_TRNS, M(52)),
 
 	KEYMAP(
 		M(75), M(76), KC_X, KC_Y, KC_Z, KC_A, KC_B, KC_C, 
-		M(80), KC_LABK, KC_RABK, KC_LBRC, KC_RBRC, M(7), M(8), KC_BSPC, 
-		M(19), KC_LPRN, KC_RPRN, M(72), M(71), KC_MINS, KC_PLUS, M(1), 
-		M(20), M(3), M(26), M(25), KC_7, KC_8, KC_9, M(2), 
-		M(21), M(14), M(77), KC_PERC, KC_4, KC_5, KC_6, KC_EQL, 
+		M(80), KC_LABK, KC_RABK, KC_LBRC, KC_RBRC, M(89), M(90), KC_BSPC, 
+		M(92), KC_LPRN, KC_RPRN, M(83), KC_PAST, KC_MINS, KC_PLUS, M(1), 
+		M(93), M(3), M(84), M(25), KC_7, KC_8, KC_9, M(2), 
+		M(94), M(91), M(77), KC_PERC, KC_4, KC_5, KC_6, KC_EQL, 
 		KC_LSFT, KC_CIRC, M(12), M(13), KC_1, KC_2, KC_3, KC_ENT, 
 		LT(7, KC_NO), KC_PIPE, KC_AMPR, KC_COMM, KC_0, M(0), KC_DOT),
 
 	KEYMAP(
-		M(31), M(34), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_D, 
-		M(30), M(73), M(74), KC_LCBR, KC_RCBR, M(9), M(10), KC_TRNS, 
-		M(22), KC_TRNS, KC_TRNS, KC_TRNS, M(78), KC_TRNS, KC_TRNS, KC_TRNS, 
-		M(23), M(4), M(27), M(28), KC_HOME, KC_UP, KC_PGUP, KC_TRNS, 
-		M(24), KC_TRNS, M(33), M(79), KC_LEFT, KC_TRNS, KC_RGHT, M(70), 
-		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_END, KC_DOWN, KC_PGDN, TO(0), 
-		KC_TRNS, KC_TRNS, KC_AT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
+		M(98), M(99), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_D, 
+		M(30), M(73), M(74), KC_LCBR, KC_RCBR, M(82), M(81), KC_TRNS, 
+		M(95), KC_TRNS, KC_TRNS, M(72), M(71), KC_TRNS, KC_TRNS, KC_TRNS, 
+		M(96), M(4), M(27), M(28), KC_HOME, KC_UP, KC_PGUP, KC_TRNS, 
+		M(97), M(88), M(33), M(79), KC_LEFT, KC_TRNS, KC_RGHT, M(70), 
+		KC_TRNS, M(85), M(86), M(87), KC_END, KC_DOWN, KC_PGDN, TO(0), 
+		KC_TRNS, KC_TRNS, KC_AT, KC_TRNS, KC_TRNS, KC_TRNS, M(78)),
 
 	KEYMAP(
 		KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
@@ -199,12 +200,17 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 			break;
 		case 9:
 			if (record->event.pressed) {
-				return MACRO( T(1), T(0), END );
+				return MACRO( T(1), T(0), D(LSFT), T(6), U(LSFT), END );
 			}
 			break;
 		case 10:
 			if (record->event.pressed) {
 				return MACRO( T(E), T(X), T(P), END );
+			}
+			break;
+		case 11:
+			if (record->event.pressed) {
+				return MACRO( T(D), T(O), T(T), END );
 			}
 			break;
 		case 12:
@@ -220,6 +226,11 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 		case 14:
 			if (record->event.pressed) {
 				return MACRO( D(LSFT), T(6), T(9), U(LSFT), T(MINS), T(1), D(LSFT), T(0), U(LSFT), END );
+			}
+			break;
+		case 15:
+			if (record->event.pressed) {
+				return MACRO( T(Z), T(E), T(R), T(O), T(S), END );
 			}
 			break;
 		case 16:
@@ -402,6 +413,11 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 				return MACRO( T(PAST), T(PAST), D(LSFT), T(9), U(LSFT), T(MINS), T(1), D(LSFT), D(0), U(LSFT), U(0), END );
 			}
 			break;
+		case 52:
+			if (record->event.pressed) {
+				return MACRO( T(N), T(P), T(DOT), T(D), T(O), T(T), END);
+			}
+			break;
 		case 53:
 			if (record->event.pressed) {
 				return MACRO( T(N), T(P), T(DOT), T(S), T(Q), T(R), T(T), END );
@@ -472,6 +488,11 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 				return MACRO( T(1), T(0), T(PAST), T(PAST), END );
 			}
 			break;
+		case 67:
+			if (record->event.pressed) {
+				return MACRO( T(N), T(P), T(DOT), T(A), T(R), T(R), T(A), T(Y), END);
+			}
+			break;
 		case 68:
 			if (record->event.pressed) {
 				return MACRO( T(DOT), D(LSFT), T(6), T(9), U(LSFT), T(MINS), T(1), D(LSFT), T(0), U(LSFT), END );
@@ -537,6 +558,106 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 				return MACRO( T(BSLS), T(P), T(I), END );
 			}
 			break;
+		case 81:
+			if (record->event.pressed) {
+				return MACRO( T(E), D(LSFT), T(6), U(LSFT), END );
+			}
+			break;
+		case 82:
+			if (record->event.pressed) {
+				return MACRO( T(1), T(0), D(LSFT), T(6), U(LSFT), END );
+			}
+			break;
+		case 83:
+			if (record->event.pressed) {
+				return MACRO( T(BSLS), T(F), T(R), T(A), T(C), D(LSFT), END );
+			}
+			break;
+		case 84:
+			if (record->event.pressed) {
+				return MACRO( T(BSLS), T(B), T(A), T(R), END );
+			}
+			break;
+		case 85:
+			if (record->event.pressed) {
+				return MACRO( D(LSFT), T(MINS), U(LSFT), END );
+			}
+			break;
+		case 86:
+			if (record->event.pressed) {
+				return MACRO( D(LSFT), T(MINS), U(LSFT), T(2), END );
+			}
+			break;
+		case 87:
+			if (record->event.pressed) {
+				return MACRO( D(LSFT), T(MINS), U(LSFT), T(3), END );
+			}
+			break;
+		case 88:
+			if (record->event.pressed) {
+				return MACRO( D(LSFT), T(MINS), T(LBRC), U(LSFT), T(MINS), T(1), D(LSFT), T(RBRC), U(LSFT), END );
+			}
+			break;
+		case 89:
+			if (record->event.pressed) {
+				return MACRO( T(BSLS), T(L), T(O), T(G), END);
+			}
+			break;
+		case 90:
+			if (record->event.pressed) {
+				return MACRO( T(BSLS), T(L), T(N), END);
+			}
+			break;
+		case 91:
+			if (record->event.pressed) {
+				return MACRO( D(LSFT), T(6), T(LBRC), U(LSFT), T(MINS), T(1), D(LSFT), T(RBRC), U(LSFT), END);
+			}
+			break;
+		case 92:
+			if (record->event.pressed) {
+				return MACRO( T(BSLS), T(S), T(I), T(N), END);
+			}
+			break;
+		case 93:
+			if (record->event.pressed) {
+				return MACRO( T(BSLS), T(C), T(O), T(S), END);
+			}
+			break;
+		case 94:
+			if (record->event.pressed) {
+				return MACRO( T(BSLS), T(T), T(A), T(N), END);
+			}
+			break;
+		case 95:
+			if (record->event.pressed) {
+				return MACRO( T(BSLS), T(A), T(R), T(C), T(S), T(I), T(N), END);
+			}
+			break;
+		case 96:
+			if (record->event.pressed) {
+				return MACRO( T(BSLS), T(A), T(R), T(C), T(C), T(O), T(S), END);
+			}
+			break;
+		case 97:
+			if (record->event.pressed) {
+				return MACRO( T(BSLS), T(A), T(R), T(C), T(T), T(A), T(N), END);
+			}
+			break;
+		case 98:
+			if (record->event.pressed) {
+				return MACRO( T(BSLS), D(LSFT), T(S), U(LSFT), T(I), T(G), T(M), T(A), END);
+			}
+			break;
+		case 99:
+			if (record->event.pressed) {
+				return MACRO( T(BSLS), D(LSFT), T(P), U(LSFT), T(I), END);
+			}
+			break;
+		case 100:
+			if (record->event.pressed) {
+				return MACRO( T(N), T(P), T(DOT), T(Z), T(E), T(R), T(O), T(S), END);
+			}
+			break;
 	}
 	return MACRO_NONE;
 }
@@ -582,8 +703,4 @@ void led_set_user(uint8_t usb_led) {
 	} else {
 		
 	}
-
-}
-void eeconfig_init_user(void) {
-    set_unicode_input_mode(UC_LNX);
 }
