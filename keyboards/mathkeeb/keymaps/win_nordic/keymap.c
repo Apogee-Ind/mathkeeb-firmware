@@ -490,7 +490,7 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 			break;
 		case 67:
 			if (record->event.pressed) {
-				return MACRO( T(N), T(P), T(DOT), T(A), T(R), T(R), T(A), T(Y), D(LSFT), T(9), U(LSFT), T(LBRC), END);
+				return MACRO( T(N), T(P), T(DOT), T(A), T(R), T(R), T(A), T(Y), D(LSFT), T(8), U(LSFT), D(RALT), T(8), U(RALT), END);
 			}
 			break;
 		case 68:

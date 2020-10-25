@@ -165,7 +165,7 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 			break;
 		case 2:
 			if (record->event.pressed) {
-				return MACRO( D(LCTL), T(A), U(LCTL), T(DEL), END );
+				return MACRO( D(LCTL), T(A), U(LCTL), T(BSPC), END );
 			}
 			break;
 		case 3:
@@ -410,7 +410,7 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 			break;
 		case 51:
 			if (record->event.pressed) {
-				return MACRO( T(PAST), T(PAST), D(LSFT), T(8), U(LSFT), T(SLSH), T(1), D(LSFT), D(9), U(LSFT), U(0), END );
+				return MACRO( T(PAST), T(PAST), D(LSFT), T(8), U(LSFT), T(SLSH), T(1), D(LSFT), T(9), U(LSFT), END );
 			}
 			break;
 		case 52:
@@ -490,7 +490,7 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 			break;
 		case 67:
 			if (record->event.pressed) {
-				return MACRO( T(N), T(P), T(DOT), T(A), T(R), T(R), T(A), T(Y), D(LSFT), T(8), U(LSFT), T(LBRC), END);
+				return MACRO( T(N), T(P), T(DOT), T(A), T(R), T(R), T(A), T(Z), D(LSFT), T(8), U(LSFT), D(RALT), T(LBRC), U(RALT), END);
 			}
 			break;
 		case 68:
@@ -570,7 +570,7 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 			break;
 		case 83:
 			if (record->event.pressed) {
-				return MACRO( D(RALT), T(NUBS), U(RALT), T(F), T(R), T(A), T(C), D(RALT), T(QUOT), T(BSLS), T(QUOT), T(BSLS), T(LEFT), T(LEFT), T(LEFT), END );
+				return MACRO( D(RALT), T(NUBS), U(RALT), T(F), T(R), T(A), T(C), D(RALT), T(QUOT), T(BSLS), T(QUOT), T(BSLS), U(RALT), T(LEFT), T(LEFT), T(LEFT), END );
 			}
 			break;
 		case 84:
