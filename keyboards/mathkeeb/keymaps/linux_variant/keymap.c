@@ -570,7 +570,7 @@ const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt) {
 			break;
 		case 83:
 			if (record->event.pressed) {
-				return MACRO( T(BSLS), T(F), T(R), T(A), T(C), D(LSFT), END );
+				return MACRO( T(BSLS), T(F), T(R), T(A), T(C), END );
 			}
 			break;
 		case 84:
